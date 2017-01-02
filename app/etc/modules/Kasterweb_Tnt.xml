@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Kasterweb_Tnt>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Kasterweb_Tnt>
+    </modules>
+</config>
