@@ -9,6 +9,12 @@
                     <show_in_default>1</show_in_default>
                     <show_in_website>0</show_in_website>
                     <show_in_store>1</show_in_store>
+                     <comment><![CDATA[
+                    Copyright: <a href="http://www.kasterweb.com.br" target="_blank"> Kasterweb - (http://http://www.kasterweb.com.br/) </a> <br />
+                    Author: Luan Alves - luan.prog@gmail.com <br />
+                    License: http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0) <br />
+                    Module: <a href="https://www.tnt.com/express/pt_br/site/home/applications/mercurio_traking.html" target="_blank">TNT MERCÚRIO - https://www.tnt.com/express/pt_br/site/home/applications/mercurio_traking.html</a>
+                    ]]></comment>
                     <fields>
                         <active translate="label">
                             <label>Enabled</label>
