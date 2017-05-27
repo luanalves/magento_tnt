@@ -40,7 +40,7 @@
     <default>
         <carriers>
             <kasterweb_tnt>
-                <active>1</active>
+                <active>0</active>
                 <sallowspecific>1</sallowspecific>
                 <name>Kasterweb TNT Mercúrio</name>
                 <title>Transportadora TNT</title>
