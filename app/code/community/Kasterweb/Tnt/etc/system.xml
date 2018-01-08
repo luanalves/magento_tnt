@@ -9,12 +9,6 @@
                     <show_in_default>1</show_in_default>
                     <show_in_website>0</show_in_website>
                     <show_in_store>1</show_in_store>
-                     <comment><![CDATA[
-                    Copyright: <a href="http://www.kasterweb.com.br" target="_blank"> Kasterweb - (http://http://www.kasterweb.com.br/) </a> <br />
-                    Author: Luan Alves - luan.prog@gmail.com <br />
-                    License: http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0) <br />
-                    Module: <a href="https://www.tnt.com/express/pt_br/site/home/applications/mercurio_traking.html" target="_blank">TNT MERCÚRIO - https://www.tnt.com/express/pt_br/site/home/applications/mercurio_traking.html</a>
-                    ]]></comment>
                     <fields>
                         <active translate="label">
                             <label>Enabled</label>
@@ -121,7 +115,22 @@
                             <show_in_website>0</show_in_website>
                             <show_in_store>1</show_in_store>
                         </tp_servico>
-
+                        <enable_log translate="label">
+                            <label>Enable Log</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enable_log>
+                        <sort_order translate="label">
+                            <label>Sort Order</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>70</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </sort_order>
                     </fields>
                 </kasterweb_tnt>
             </groups>

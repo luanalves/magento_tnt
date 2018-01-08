@@ -40,7 +40,7 @@
     <default>
         <carriers>
             <kasterweb_tnt>
-                <active>0</active>
+                <active>1</active>
                 <sallowspecific>1</sallowspecific>
                 <name>Kasterweb TNT Mercúrio</name>
                 <title>Transportadora TNT</title>
@@ -54,6 +54,7 @@
                 <!-- CORE CONFIG DATA -->
                 <path_module_login_empresa>kasterweb_tnt/kasterweb_tnt_shipping_quote/login_empresa</path_module_login_empresa>
                 <path_module_linkwebservice>kasterweb_tnt/kasterweb_tnt_shipping_quote/link_webservice</path_module_linkwebservice>
+                <enable_log>carriers/kasterweb_tnt/enable_log</enable_log>
                 <!-- CORE CONFIG DATA -->
             </general>
         </kasterweb_tnt>

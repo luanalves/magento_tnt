@@ -30,6 +30,7 @@ class Kasterweb_Tnt_Model_Config
     const PATH_MODULE_INSCESTADUAL = 'carriers/kasterweb_tnt/insc_estadual';
     const PATH_MODULE_TPSERVICO = 'carriers/kasterweb_tnt/tp_servico';
     const PATH_IDENT_CLIENTE = 'carriers/kasterweb_tnt/ident_cliente';
+    const ENABLE_LOG = 'kasterweb_tnt/general/enable_log';
 
     public function getOptionsTaxSituation()
     {
@@ -175,7 +176,10 @@ class Kasterweb_Tnt_Model_Config
         } else {
             $message = array_merge($data, array($message));
         }
-        Mage::log(print_r($message, 1), null, $this->_getFileLog(self::XML_FILE_LOG));
+
+        if (Mage::getStoreConfig(Mage::getStoreConfig(self::ENABLE_LOG, Mage::app()->getStore()->getStoreId()))){
+            Mage::log(print_r($message, 1), null, $this->_getFileLog(self::XML_FILE_LOG));
+        }
     }
 
     public function getModelCatalogProduct()
